@@ -1,0 +1,35 @@
+{
+  "_QPVersion": "0.1.1",
+  "name": "MockPlayer",
+  "id": "MockPlayer",
+  "author": "cubic",
+  "version": "1.0.0",
+  "packageId": "com.beatgames.beatsaber",
+  "packageVersion": "1.22.0",
+  "description": "Testing the mock player code in the base game",
+  "dependencies": [
+    {
+      "version": "^0.15.12",
+      "id": "custom-types",
+      "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.15.12/CustomTypes.qmod"
+    },
+    {
+      "version": "^0.23.0",
+      "id": "codegen",
+      "downloadIfMissing": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.23.0/Codegen.qmod"
+    },
+    {
+      "version": "^0.15.2",
+      "id": "questui",
+      "downloadIfMissing": "https://github.com/darknight1050/QuestUI/releases/download/v0.15.3/QuestUI.qmod"
+    }
+  ],
+  "modFiles": [
+    "libMockPlayer.so"
+  ],
+  "libraryFiles": [
+    "libbeatsaber-hook_3_8_5.so"
+  ],
+  "fileCopies": [],
+  "copyExtensions": []
+}
